@@ -21,6 +21,7 @@ public partial class DistancePage : ContentPage
     public DistancePage()
     {
         InitializeComponent();
+        
         Title = "Distance Converter";
         ToolbarItem tbi = new ToolbarItem();
         tbi.Text = "About";
@@ -158,4 +159,5 @@ public partial class DistancePage : ContentPage
         }
     }
 
+    
 }
